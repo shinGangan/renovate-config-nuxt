@@ -15,6 +15,18 @@ Add this into `renovate.json`:
 }
 ```
 
+### Linters
+
+```json
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>nuxt/renovate-config-nuxt",
+    "github>nuxt/renovate-config-nuxt//config/linters",
+  ]
+}
+```
+
 ## Useful Links
 
 - [Configuration Options](https://renovatebot.com/docs/configuration-options)
